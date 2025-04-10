@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: ProductRepoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+ProductRepoTest.testAddProduct()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ProductRepo.addProduct(org.lg.Model.Product)" because "this.productRepo" is null
+	at ProductRepoTest.testAddProduct(ProductRepoTest.java:32)
+
+ProductRepoTest.testGetAllProducts()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ProductRepo.getAllProducts()" because "this.productRepo" is null
+	at ProductRepoTest.testGetAllProducts(ProductRepoTest.java:53)
+
+ProductRepoTest.testDeleteProduct()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ProductRepo.getAllProducts()" because "this.productRepo" is null
+	at ProductRepoTest.getUUID(ProductRepoTest.java:100)
+	at ProductRepoTest.testDeleteProduct(ProductRepoTest.java:88)
+
+ProductRepoTest.testUpdateProducts()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ProductRepo.getAllProducts()" because "this.productRepo" is null
+	at ProductRepoTest.getUUID(ProductRepoTest.java:100)
+	at ProductRepoTest.testUpdateProducts(ProductRepoTest.java:79)
+
+ProductRepoTest.testUpdateProduct()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Model.Product.setDiscount(float)" because "this.testProduct" is null
+	at ProductRepoTest.testUpdateProduct(ProductRepoTest.java:61)
+
+ProductRepoTest.testFindProductById()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ProductRepo.getAllProducts()" because "this.productRepo" is null
+	at ProductRepoTest.getUUID(ProductRepoTest.java:100)
+	at ProductRepoTest.testFindProductById(ProductRepoTest.java:44)
+
+ProductRepoTest.testUpdateProductInventory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ProductRepo.getAllProducts()" because "this.productRepo" is null
+	at ProductRepoTest.getUUID(ProductRepoTest.java:100)
+	at ProductRepoTest.testUpdateProductInventory(ProductRepoTest.java:71)
+

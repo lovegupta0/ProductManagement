@@ -1,0 +1,4 @@
+--patch-module
+ProductManagement=_
+--add-reads
+ProductManagement=ALL-UNNAMED

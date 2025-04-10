@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: ClientRepoTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+ClientRepoTest.testFindById()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ClientRepo.findById(String)" because "ClientRepoTest.clientRepo" is null
+	at ClientRepoTest.testFindById(ClientRepoTest.java:47)
+
+ClientRepoTest.testUpdateClient()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ClientRepo.findById(String)" because "ClientRepoTest.clientRepo" is null
+	at ClientRepoTest.testUpdateClient(ClientRepoTest.java:56)
+
+ClientRepoTest.testAddClient()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ClientRepo.addClient(org.lg.Model.Client)" because "ClientRepoTest.clientRepo" is null
+	at ClientRepoTest.testAddClient(ClientRepoTest.java:29)
+
+ClientRepoTest.testGetAllClients()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ClientRepo.getAllClient()" because "ClientRepoTest.clientRepo" is null
+	at ClientRepoTest.testGetAllClients(ClientRepoTest.java:38)
+

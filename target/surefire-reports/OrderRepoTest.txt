@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: OrderRepoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+OrderRepoTest.testUpdateOrder()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.OrderRepo.findByOrderId(String)" because "OrderRepoTest.orderRepo" is null
+	at OrderRepoTest.testUpdateOrder(OrderRepoTest.java:82)
+
+OrderRepoTest.testDeleteOrder()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.OrderRepo.deleteOrder(String)" because "OrderRepoTest.orderRepo" is null
+	at OrderRepoTest.testDeleteOrder(OrderRepoTest.java:93)
+
+OrderRepoTest.testGetAllOrder()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.OrderRepo.getAllOrder()" because "OrderRepoTest.orderRepo" is null
+	at OrderRepoTest.testGetAllOrder(OrderRepoTest.java:64)
+
+OrderRepoTest.testFindByOrderId()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.OrderRepo.findByOrderId(String)" because "OrderRepoTest.orderRepo" is null
+	at OrderRepoTest.testFindByOrderId(OrderRepoTest.java:55)
+
+OrderRepoTest.testDoCheckOut()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.ClientRepo.addClient(org.lg.Model.Client)" because "OrderRepoTest.clientRepo" is null
+	at OrderRepoTest.testDoCheckOut(OrderRepoTest.java:32)
+
+OrderRepoTest.testIsAbleToCheckOut()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.OrderRepo.findByOrderId(String)" because "OrderRepoTest.orderRepo" is null
+	at OrderRepoTest.testIsAbleToCheckOut(OrderRepoTest.java:72)
+
