@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: StoreRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+StoreRepositoryTest.testLogout()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.StoreRepository.Authenticate(String, String)" because "this.storeRepo" is null
+	at StoreRepositoryTest.testLogout(StoreRepositoryTest.java:59)
+
+StoreRepositoryTest.testGetService()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.StoreRepository.Authenticate(String, String)" because "this.storeRepo" is null
+	at StoreRepositoryTest.testGetService(StoreRepositoryTest.java:50)
+
+StoreRepositoryTest.testGetUserAfterAuth()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.StoreRepository.Authenticate(String, String)" because "this.storeRepo" is null
+	at StoreRepositoryTest.testGetUserAfterAuth(StoreRepositoryTest.java:40)
+
+StoreRepositoryTest.testAuthenticateSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.StoreRepository.Authenticate(String, String)" because "this.storeRepo" is null
+	at StoreRepositoryTest.testAuthenticateSuccess(StoreRepositoryTest.java:23)
+
+StoreRepositoryTest.testAuthenticateFail()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.lg.Repository.StoreRepository.Authenticate(String, String)" because "this.storeRepo" is null
+	at StoreRepositoryTest.testAuthenticateFail(StoreRepositoryTest.java:32)
+
